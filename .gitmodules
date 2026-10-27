@@ -1,0 +1,23 @@
+[submodule "uav/PX4-Autopilot"]
+	path = uav/PX4-Autopilot
+	url = https://github.com/PX4/PX4-Autopilot.git
+
+[submodule "uav/Micro-XRCE-DDS-Agent"]
+	path = uav/Micro-XRCE-DDS-Agent
+	url = https://github.com/eProsima/Micro-XRCE-DDS-Agent.git
+
+[submodule "uav/ros2_ws/src/px4_msgs"]
+	path = uav/ros2_ws/src/px4_msgs
+	url = https://github.com/PX4/px4_msgs.git
+
+[submodule "uav/ros2_ws/src/px4_ros_com"]
+	path = uav/ros2_ws/src/px4_ros_com
+	url = https://github.com/PX4/px4_ros_com.git
+
+[submodule "uav/references/python-offboard"]
+	path = uav/references/python-offboard
+	url = https://github.com/ARK-Electronics/ROS2_PX4_Offboard_Example.git
+
+[submodule "uav/references/ego-planner-swarm"]
+	path = uav/references/ego-planner-swarm
+	url = https://github.com/ZJU-FAST-Lab/ego-planner-swarm.git

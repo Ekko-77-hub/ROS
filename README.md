@@ -1,3 +1,7 @@
+# ROS 2 地面机器人与 PX4 无人机学习
+
+无人机源码已作为固定版本 Git 子模块接入。请先阅读 [无人机下载、编译与运行说明](docs/uav_setup_zh.md)。本仓库尚未在用户 Ubuntu 电脑完成编译和飞行验证。
+
 # wpb_home 巡检学习项目
 
 目标环境：Ubuntu 24.04 / ROS 2 Jazzy / Gazebo Harmonic。

@@ -1,0 +1,49 @@
+[
+  {
+    "repo": "PX4/PX4-Autopilot",
+    "ref": "v1.16.0",
+    "sha": "6ea3539157ca358c70a515878b77077af7d4611d",
+    "tree": "37b2b8098ce128388387f81ec082fea70666ee7c",
+    "key": "px4",
+    "path": "uav/PX4-Autopilot"
+  },
+  {
+    "repo": "eProsima/Micro-XRCE-DDS-Agent",
+    "ref": "v2.4.3",
+    "sha": "73622810d984349b80bbac0ef55fc0b694d62222",
+    "tree": "30de05fce045d2cc40c3b911f4dc5085b24f1ab4",
+    "key": "agent",
+    "path": "uav/Micro-XRCE-DDS-Agent"
+  },
+  {
+    "repo": "PX4/px4_msgs",
+    "ref": "release/1.16",
+    "sha": "392e831c1f659429ca83902e66820d7094591410",
+    "tree": "66a1eece028db3319c438349cc104f56290878ea",
+    "key": "msgs",
+    "path": "uav/ros2_ws/src/px4_msgs"
+  },
+  {
+    "repo": "PX4/px4_ros_com",
+    "ref": "main",
+    "sha": "86e9aeb20e55a4673fa8a9f1c29ea06a6c5ad1af",
+    "tree": "f044333d3bace12fb0254c0bf6acc1132d1d435d",
+    "key": "com",
+    "path": "uav/ros2_ws/src/px4_ros_com"
+  },
+  {
+    "repo": "ARK-Electronics/ROS2_PX4_Offboard_Example",
+    "ref": "master",
+    "sha": "65786c1b5386c2d20bc256f027b6991030cc610c",
+    "tree": "146541ee5f95a9a65325e3c8d2db6b0487dd9515",
+    "key": "python",
+    "path": "uav/references/python-offboard"
+  },
+  {
+    "repo": "ZJU-FAST-Lab/ego-planner-swarm",
+    "ref": "ros2_version",
+    "sha": "23a8d5a191711dd65633df689bd00f55d4dea8f9",
+    "key": "ego",
+    "path": "uav/references/ego-planner-swarm"
+  }
+]
