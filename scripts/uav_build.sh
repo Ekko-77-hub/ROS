@@ -32,6 +32,6 @@ if [[ "$mode" == --agent || "$mode" == --all ]]; then
   cmake --install "$root/uav/agent_build" 2>&1 | tee "$root/uav/logs/agent-install.log"
 fi
 if [[ "$mode" == --px4 || "$mode" == --all ]]; then
-  (cd "$root/uav/PX4-Autopilot" && DONT_RUN=1 make -j"$jobs" px4_sitl gz_x500) 2>&1 | tee "$root/uav/logs/px4-build.log"
+  (cd "$root/uav/PX4-Autopilot" && make -j"$jobs" px4_sitl && cmake --build build/px4_sitl_default --target px4_gz_plugins --parallel "$jobs") 2>&1 | tee "$root/uav/logs/px4-build.log"
 fi
 echo "所选构建步骤完成；未启动仿真或飞行控制。"
